@@ -14,7 +14,7 @@ function loadJson(){
         let body="";
         let dataRow = document.getElementById('dataRow');
         countryList.forEach(element=>{
-            body+=`<div data-aos="fade-up"   class="mb-2 d-flex justify-content-center col-lg-4 col-sm-6">
+            body+=`<div data-aos="fade-up" class="mb-2 d-flex justify-content-center col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
                     <div class="card" style="width: 18rem;">
                       <img src="${element.flags.png}" class="card-img-top" alt="country-flags">
                       <div class="card-body">
