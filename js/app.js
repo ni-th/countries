@@ -14,7 +14,8 @@ function loadJson(){
         let body="";
         let dataRow = document.getElementById('dataRow');
         countryList.forEach(element=>{
-            body+=`<div id="countryCard" class="mb-2 d-flex justify-content-center col-lg-4 col-sm-6"><div class="card" style="width: 18rem;">
+            body+=`<div data-aos="fade-up"   class="mb-2 d-flex justify-content-center col-lg-4 col-sm-6">
+                    <div class="card" style="width: 18rem;">
                       <img src="${element.flags.png}" class="card-img-top" alt="country-flags">
                       <div class="card-body">
                         <h5 id="title-${index}" class="card-title">${element.name.common}</h5>
@@ -105,3 +106,6 @@ function search(){
 
     })
 }
+
+
+
